@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.rayhealthcare.omni.model.Consulta">
+		<field name="uuid" type="String" />
+		<field name="consultaId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="pacienteId" type="long" />
+		<field name="medicoId" type="long" />
+		<field name="especialidade" type="String" />
+		<field name="time" type="long" />
+	</model>
+</model-hints>

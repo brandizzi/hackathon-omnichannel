@@ -1,0 +1,9 @@
+Bundle-Name: rayhealthcare-api
+Bundle-SymbolicName: com.rayhealthcare.omni.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.rayhealthcare.omni.exception,\
+	com.rayhealthcare.omni.model,\
+	com.rayhealthcare.omni.service,\
+	com.rayhealthcare.omni.service.persistence
+-includeresource: META-INF/service.xml=../rayhealthcare-service/service.xml
